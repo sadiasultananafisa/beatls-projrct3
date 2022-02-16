@@ -27,12 +27,20 @@ $(function(){
        );
      }
    });
- 
-  // $('.fade').slick({
-   //   dots: true,
-    //  infinite: true,
-     // speed: 500,
-    //  fade: true,
-    //  cssEase: 'linear'
-   // });
+   $(window).on("scroll",function(){
+     if($(window).scrollTop() > $("#nav").height()){
+      $("#nav").addClass("nav_anim")
+     }else{
+      $("#nav").removeClass("nav_anim")
+     }
+   })
+   $('.banner_slider').slick({
+    prevArrow:'<i class="banner_slider_icon fas fa-arrow-left"></i>',
+    nextArrow:'<i class="banner_slider_icon fas fa-arrow-right"></i>',
+    dots: true,
+    dotsClass: 'banner_slider_dots',
+    autoplay: true,
+    autoplaySpeed: 3000,
+    speed:1000,
+  })
  });
