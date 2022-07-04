@@ -179,7 +179,7 @@ header{
     
 }
 .menu ul li:hover a{
-    color: var(--hd-hover-hlt-color);
+    color: black;
 }
 /*nav ends here*/
 /*banner starts here*/
