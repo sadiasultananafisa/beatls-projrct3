@@ -40,7 +40,7 @@ $(function(){
     dots: true,
     dotsClass: 'banner_slider_dots',
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     speed:1000,
   })
  });

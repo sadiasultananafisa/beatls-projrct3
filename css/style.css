@@ -145,6 +145,7 @@ header{
     width:100%;
     background-color: var(--hd-hover-hlt-color);
     animation: smooth 0.3s;
+    color: #f1f1f1;
 }
 @keyframes smooth {
     0%{
@@ -233,8 +234,8 @@ header{
     border: none;
     background: none;
     font-size: 0;
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     border: 2px solid var(--hd-hover-hlt-color);
     border-radius: 50%;
     cursor: pointer;
